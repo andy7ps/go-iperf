@@ -6,7 +6,7 @@ LABEL maintainer="Benjamin Grewell <bgrewell@gmail.com>"
 ENV PROTOC_VERSION 3.6.1
 ENV PROTOC_GEN_GO_VERSION v1.2.0
 
-WORKDIR /go/src/github.com/BGrewell/go-iperf/api
+WORKDIR /go/src/github.com/andy7ps/go-iperf/api
 
 RUN apt update
 RUN apt install -y protobuf-compiler python3 python3-pip

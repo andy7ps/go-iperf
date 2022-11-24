@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/BGrewell/go-iperf"
+	"github.com/andy7ps/go-iperf"
 	"os"
 )
 
